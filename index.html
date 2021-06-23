@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <title>
+       Mahabharata
+    </title>
+</head>
+
+<body>
+    <center>
+        <h1 style="font-size: large;">
+            Mahabharata Drona
+        </h1>
+        <img id="book" src="1 IMG.jpg">
+        <br>
+        <div id="name">Mahabharata book</div>
+        <br>
+        <button id="Next" onclick="Next()">
+            Next page
+        </button>
+        <script>
+            var img = ["2 IMG.jpg", "3 IMG.jpg", "4 IMG.jpg", "5 IMG.jpg", "6 IMG.jpg", "7 IMG.jpg", "8 IMG.jpg", "9 IMG.jpg", "10 IMG.jpg", "11 IMG.jpg", "12 IMG.jpg", "13 IMG.jpg", "14 IMG.jpg", "15 IMG.jpg", "16 IMG.jpg"];
+            var i = 0;
+            function Next() {
+                i++;
+                var numbers_of_family_member_in_array = 15
+                if (i > numbers_of_family_member_in_array) {
+                    i = 0;
+                }
+                var nextimg=img[i];
+                document.getElementById("book").src = nextimg;
+            }
+        </script>
+    </center>
+</body>
+
+</html>

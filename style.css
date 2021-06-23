@@ -1,0 +1,18 @@
+button{
+    background-color: aqua;
+    color: brown;
+    font-size: 20px;
+}
+img{
+    height: 500px;
+    width: 500px;
+}
+#name{
+    font-size: 20px;
+}
+
+
+body
+{
+background-image: linear-gradient(to left top, #ff0000, #ff0055, #e44a97, hsl(271, 54%, 46%), #2f3cf1);
+}
